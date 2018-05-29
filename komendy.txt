@@ -1,0 +1,4 @@
+node_modules/.bin/browser-sync start autoprefixer-cli -o style.prefixed.css main.css
+
+node_modules/.bin/browser-sync start nu-html-checker .html
+

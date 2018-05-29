@@ -28,6 +28,7 @@ header p, header h1 {
 }
 section {
 	padding: 0 20%;
+    display: flex;
 }
 .song p {
 	margin-top: 5px;

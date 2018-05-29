@@ -1,0 +1,26 @@
+{
+  "name": "zadanie-1-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+    "watch":"browsersync",
+    "build":"clean",
+    "build":"sass",
+    "watch":"sassprefixer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.24.4",
+    "nu-html-checker": "^0.1.0"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1",
+    "rimraf": "^2.6.2"
+  }
+}
